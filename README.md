@@ -3,7 +3,7 @@
 ## 目录
 ### 第一部分 基础篇
 #### 第1章 TA-lib概述
-##### [1.1 技术分析的基本概念](content/1.1 技术分析的基本概念.md)
+##### [1.1 技术分析的基本概念](https://github.com/isuixiang/talib-guide/blob/0b5fe9068a783d5a5fcdf9e2a8b23d550a60f6f2/content/1.1%20%E6%8A%80%E6%9C%AF%E5%88%86%E6%9E%90%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5.md)
 ##### 1.2 TA-lib库简介
 ##### 1.3 Python TA-Lib的安装与配置
 ####  第2章 环境搭建与CSV数据准备
