@@ -4,7 +4,7 @@
 ### 第一部分 基础篇
 #### 第1章 TA-lib概述
 ##### [1.1 技术分析的基本概念](content/chapter1-1.md)
-##### 1.2 TA-lib库简介
+##### [1.2 TA-lib库简介](content/chapter1-2.md)
 ##### 1.3 Python TA-Lib的安装与配置
 ####  第2章 环境搭建与CSV数据准备
 ##### 2.1 开发环境配置
