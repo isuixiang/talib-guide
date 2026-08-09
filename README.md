@@ -7,9 +7,9 @@
 ##### [1.2 TA-lib库简介](content/chapter1-2.md)
 ##### [1.3 Python TA-Lib的安装与配置](content/chapter1-3.md)
 ####  第2章 环境搭建与CSV数据准备
-##### 2.1 开发环境配置
-##### 2.2 CSV数据文件规范
-##### 2.3 数据读取与预处理
+##### [2.1 开发环境配置](content/chapter2-1.md)
+##### [2.2 CSV数据文件规范](content/chapter2-2.md)
+##### [2.3 数据读取与预处理](content/chapter2-3.md)
 #### 第3章 Matplotlib金融图表基础
 ##### 3.1 Matplotlib基础用法
 ##### 3.2 金融K线图绘制
