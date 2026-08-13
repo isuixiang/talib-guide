@@ -47,7 +47,7 @@ plt.show()
 
 这里有几个关键点需要留意。`fig, ax = plt.subplots()`这一行返回两个对象，而不是一个。`fig`是画布，`ax`是坐标轴区域。通过`ax`的系列方法（如`plot`、`set_title`、`set_xlabel`）来绘制和装饰图表，是Matplotlib的“面向对象”风格。虽然Matplotlib也提供类似于`plt.plot()`的简化接口（称为`pyplot`状态机风格），但面向对象的方式在绘制多子图时更加清晰和可控。
 
-![](D:/%E8%B5%84%E6%96%99/%E6%88%91%E7%9A%84/%E4%BA%A7%E5%93%81/%E7%94%B5%E5%AD%90%E4%B9%A6/Python%E5%BA%93%E6%95%99%E7%A8%8B/Talib%E5%BA%93%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/charts/chart-3-1-1.png)
+![](../charts/chart-3-1-1.png)
 
 #### 图形样式控制：颜色、线型与标记
 
@@ -77,7 +77,7 @@ plt.show()
 
 在实际的金融图表中，通常不会使用过于花哨的样式，但掌握这些选项有助于你根据需要突出特定的数据特征。
 
-![](D:/%E8%B5%84%E6%96%99/%E6%88%91%E7%9A%84/%E4%BA%A7%E5%93%81/%E7%94%B5%E5%AD%90%E4%B9%A6/Python%E5%BA%93%E6%95%99%E7%A8%8B/Talib%E5%BA%93%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/charts/chart-3-1-2.png)
+![](../charts/chart-3-1-2.png)
 
 #### 多子图布局
 
@@ -107,7 +107,7 @@ plt.show()
 
 这里的`sharex=True`参数非常重要——它让两个子图共享X轴，这意味着当你缩放或平移底部子图时，顶部子图会自动跟随。这在金融分析中几乎是标配，因为价格和成交量共享同一时间轴，我们需要确保它们完全对齐。
 
-![](D:/%E8%B5%84%E6%96%99/%E6%88%91%E7%9A%84/%E4%BA%A7%E5%93%81/%E7%94%B5%E5%AD%90%E4%B9%A6/Python%E5%BA%93%E6%95%99%E7%A8%8B/Talib%E5%BA%93%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/charts/chart-3-1-3.png)
+![](../charts/chart-3-1-3.png)
 
 当子图数量较多时，可以结合循环来简化代码：
 
@@ -135,7 +135,7 @@ plt.tight_layout()
 plt.show()
 ```
 
-![](D:/%E8%B5%84%E6%96%99/%E6%88%91%E7%9A%84/%E4%BA%A7%E5%93%81/%E7%94%B5%E5%AD%90%E4%B9%A6/Python%E5%BA%93%E6%95%99%E7%A8%8B/Talib%E5%BA%93%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/charts/chart-3-1-4.png)
+![](../charts/chart-3-1-4.png)
 
 #### 与Pandas DataFrame的集成
 
@@ -165,7 +165,7 @@ plt.show()
 
 需要注意的是，Pandas的`plot`方法在便利性上做了大量妥协——它的定制能力远不如直接使用Matplotlib的面向对象API。当图表需要精细调整时（比如设置次坐标轴、自定义图例位置、添加注释等），我们仍然需要回到Matplotlib的原生接口。
 
-![](D:/%E8%B5%84%E6%96%99/%E6%88%91%E7%9A%84/%E4%BA%A7%E5%93%81/%E7%94%B5%E5%AD%90%E4%B9%A6/Python%E5%BA%93%E6%95%99%E7%A8%8B/Talib%E5%BA%93%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/charts/chart-3-1-5.png)
+![](../charts/chart-3-1-5.png)
 
 #### 图表美化：中文显示、颜色主题与注释
 
@@ -188,7 +188,7 @@ plt.show()
 
 不同操作系统上可用的中文字体不同——Windows通常有`SimHei`或`Microsoft YaHei`，macOS有`PingFang SC`或`STHeiti`，Linux则需要安装`文泉驿`等中文字体包。为了提高跨平台兼容性，可以使用`Arial Unicode MS`这个广泛可用的字体。
 
-![](D:/%E8%B5%84%E6%96%99/%E6%88%91%E7%9A%84/%E4%BA%A7%E5%93%81/%E7%94%B5%E5%AD%90%E4%B9%A6/Python%E5%BA%93%E6%95%99%E7%A8%8B/Talib%E5%BA%93%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/charts/chart-3-1-6.png)
+![](../charts/chart-3-1-6.png)
 
 **颜色主题**方面，金融图表有其约定俗成的配色习惯。一个通用的做法是使用预定义的配色循环：
 
