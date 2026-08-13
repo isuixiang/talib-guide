@@ -11,6 +11,19 @@
 ##### [2.2 CSV数据文件规范](content/chapter2-2.md)
 ##### [2.3 数据读取与预处理](content/chapter2-3.md)
 #### 第3章 Matplotlib金融图表基础
-##### 3.1 Matplotlib基础用法
-##### 3.2 金融K线图绘制
-##### 3.3 图表保存与导出
+##### [3.1 Matplotlib基础用法](content/chapter3-1.md)
+##### [3.2 金融K线图绘制](content/chapter3-2.md)
+##### [3.3 图表保存与导出](content/chapter3-3.md)
+### 第二部分 指标篇
+#### 第4章 重叠研究指标（Overlap Studies）
+##### 4.1 简单移动平均线（SMA）
+##### 4.2 指数移动平均线（EMA）
+##### 4.3 加权移动平均线（WMA）
+##### 4.4 双指数移动平均线（DEMA）与三指数移动平均线（TEMA）
+##### 4.5 考夫曼自适应移动平均线（KAMA）
+##### 4.6 三角移动平均线（TRIMA）
+##### 4.7 布林带（Bollinger Bands）
+##### 4.8 抛物线转向（SAR）
+##### 4.9 周期中点（MIDPOINT、MIDPRICE）
+
+
